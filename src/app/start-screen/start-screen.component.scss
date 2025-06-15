@@ -11,3 +11,23 @@
         width: 100%;
     }
 }
+
+.start-label {
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    
+ img {
+    width: 20vw;
+    height:auto;
+
+    &:hover {
+        filter:contrast(1.5);
+       
+        cursor: pointer;
+    }
+ }
+}
